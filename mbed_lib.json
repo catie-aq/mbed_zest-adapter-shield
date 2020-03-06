@@ -1,0 +1,16 @@
+{
+    "name": "zest_adapter_shield",
+    "config": {
+        "arduino_on_j3": {
+            "help": "When 1 (default), standard Arduino UNO R3 signal namings are on J3. Set to 0 to use J5",
+            "accepted_values": [0, 1],
+            "required": false
+        }
+    },
+    "target_overrides": {
+        "ZEST_CORE_STM32L496ZG": {
+            "arduino_on_j3": 1
+        }
+    }
+}
+
