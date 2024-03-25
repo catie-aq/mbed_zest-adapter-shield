@@ -31,4 +31,3 @@
 #define D15 PB_8
 
 #endif // CATIE_SIXTRON_ZESTADAPTERSHIELD_H_
-
